@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9032E1B12EC676A800904603 /* RyūKoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RyūKoi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9032E1B12EC676A800904603 /* RyuKoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RyuKoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		9032E1C32EC676A900904603 /* Exceptions for "RyūKoi" folder in "RyūKoi" target */ = {
+		9032E1C32EC676A900904603 /* Exceptions for "RyūKoi" folder in "RyuKoi" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 9032E1B02EC676A800904603 /* RyūKoi */;
+			target = 9032E1B02EC676A800904603 /* RyuKoi */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -24,7 +24,7 @@
 		9032E1B32EC676A800904603 /* RyūKoi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				9032E1C32EC676A900904603 /* Exceptions for "RyūKoi" folder in "RyūKoi" target */,
+				9032E1C32EC676A900904603 /* Exceptions for "RyūKoi" folder in "RyuKoi" target */,
 			);
 			path = "RyūKoi";
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		9032E1B22EC676A800904603 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9032E1B12EC676A800904603 /* RyūKoi.app */,
+				9032E1B12EC676A800904603 /* RyuKoi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9032E1B02EC676A800904603 /* RyūKoi */ = {
+		9032E1B02EC676A800904603 /* RyuKoi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9032E1C42EC676A900904603 /* Build configuration list for PBXNativeTarget "RyūKoi" */;
+			buildConfigurationList = 9032E1C42EC676A900904603 /* Build configuration list for PBXNativeTarget "RyuKoi" */;
 			buildPhases = (
 				9032E1AD2EC676A800904603 /* Sources */,
 				9032E1AE2EC676A800904603 /* Frameworks */,
@@ -76,11 +76,11 @@
 			fileSystemSynchronizedGroups = (
 				9032E1B32EC676A800904603 /* RyūKoi */,
 			);
-			name = "RyūKoi";
+			name = RyuKoi;
 			packageProductDependencies = (
 			);
 			productName = "RyūKoi";
-			productReference = 9032E1B12EC676A800904603 /* RyūKoi.app */;
+			productReference = 9032E1B12EC676A800904603 /* RyuKoi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9032E1AC2EC676A800904603 /* Build configuration list for PBXProject "RyūKoi" */;
+			buildConfigurationList = 9032E1AC2EC676A800904603 /* Build configuration list for PBXProject "RyuKoi" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9032E1B02EC676A800904603 /* RyūKoi */,
+				9032E1B02EC676A800904603 /* RyuKoi */,
 			);
 		};
 /* End PBXProject section */
@@ -150,7 +150,7 @@
 				INFOPLIST_FILE = "RyūKoi/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -178,7 +178,7 @@
 				INFOPLIST_FILE = "RyūKoi/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9032E1AC2EC676A800904603 /* Build configuration list for PBXProject "RyūKoi" */ = {
+		9032E1AC2EC676A800904603 /* Build configuration list for PBXProject "RyuKoi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9032E1C72EC676A900904603 /* Debug */,
@@ -327,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9032E1C42EC676A900904603 /* Build configuration list for PBXNativeTarget "RyūKoi" */ = {
+		9032E1C42EC676A900904603 /* Build configuration list for PBXNativeTarget "RyuKoi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9032E1C52EC676A900904603 /* Debug */,
