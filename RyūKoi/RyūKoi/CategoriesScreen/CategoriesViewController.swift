@@ -22,11 +22,12 @@ class CategoriesViewController: UIViewController {
         navigationItem.hidesBackButton = true
         
         NSLayoutConstraint.activate([
-            navBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            navBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
             navBar.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             navBar.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             navBar.heightAnchor.constraint(equalToConstant: 60)
         ])
+        
         
         navBar.account.addTarget(self, action: #selector(openProfile), for: .touchUpInside)
     }

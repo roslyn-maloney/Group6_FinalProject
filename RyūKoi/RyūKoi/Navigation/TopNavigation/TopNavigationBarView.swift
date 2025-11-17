@@ -32,9 +32,8 @@ class TopNavigationBarView: UIView {
     func setupSearchBar() {
         searchBar = UISearchBar()
         searchBar.placeholder = "Search lessons..."
-        searchBar.barStyle = .default
         searchBar.layer.cornerRadius = 8
-        searchBar.backgroundColor = UIColor(red: 255/255, green: 248/255, blue: 232/255, alpha: 1.0)
+        searchBar.backgroundColor = .clear
         searchBar.translatesAutoresizingMaskIntoConstraints = false
         addSubview(searchBar)
     }
@@ -42,7 +41,7 @@ class TopNavigationBarView: UIView {
     func setupAccount() {
         account = UIButton(type: .system)
         account.setImage(UIImage(systemName: "person.crop.circle"), for: .normal)
-        account.imageView?.contentMode = .scaleAspectFit
+        //account.imageView?.contentMode = .scaleAspectFit
         account.translatesAutoresizingMaskIntoConstraints = false
         addSubview(account)
     }
