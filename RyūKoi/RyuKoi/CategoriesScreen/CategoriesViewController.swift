@@ -8,22 +8,31 @@
 import UIKit
 
 class CategoriesViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    let categoriesScreen = CategoriesView()
+    let navBar = TopNavigationBarView()
+    
+    override func loadView() {
+        view = categoriesScreen
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.addSubview(navBar)
+        navBar.translatesAutoresizingMaskIntoConstraints = false
+        navigationItem.hidesBackButton = true
+        
+        NSLayoutConstraint.activate([
+            navBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            navBar.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            navBar.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            navBar.heightAnchor.constraint(equalToConstant: 60)
+        ])
+        
+        navBar.account.addTarget(self, action: #selector(openProfile), for: .touchUpInside)
     }
-    */
-
+    
+    @objc func openProfile() {
+        let profileVC = ProfileViewController()
+        navigationController?.pushViewController(profileVC, animated: true)
+    }
 }
