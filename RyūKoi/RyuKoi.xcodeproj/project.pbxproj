@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		9032E1C32EC676A900904603 /* Exceptions for "RyūKoi" folder in "RyuKoi" target */ = {
+		9032E1C32EC676A900904603 /* Exceptions for "RyuKoi" folder in "RyuKoi" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,12 +21,12 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9032E1B32EC676A800904603 /* RyūKoi */ = {
+		9032E1B32EC676A800904603 /* RyuKoi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				9032E1C32EC676A900904603 /* Exceptions for "RyūKoi" folder in "RyuKoi" target */,
+				9032E1C32EC676A900904603 /* Exceptions for "RyuKoi" folder in "RyuKoi" target */,
 			);
-			path = "RyūKoi";
+			path = RyuKoi;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		9032E1A82EC676A800904603 = {
 			isa = PBXGroup;
 			children = (
-				9032E1B32EC676A800904603 /* RyūKoi */,
+				9032E1B32EC676A800904603 /* RyuKoi */,
 				9032E1B22EC676A800904603 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9032E1B32EC676A800904603 /* RyūKoi */,
+				9032E1B32EC676A800904603 /* RyuKoi */,
 			);
 			name = RyuKoi;
 			packageProductDependencies = (
@@ -147,10 +147,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FHC2K58H8X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "RyūKoi/Info.plist";
+				INFOPLIST_FILE = RyuKoi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -175,10 +174,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FHC2K58H8X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "RyūKoi/Info.plist";
+				INFOPLIST_FILE = RyuKoi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
