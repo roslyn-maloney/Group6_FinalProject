@@ -22,6 +22,7 @@ class LoginView: UIView {
         setupPassword()
         setupSignInBtn()
         setupLoginBtn()
+        initConstraints()
     }
     
     func setupContainer() {
@@ -29,7 +30,7 @@ class LoginView: UIView {
         container.backgroundColor = UIColor(red: 255/255, green: 248/255, blue: 232/255, alpha: 1.0)
         container.layer.cornerRadius = 10
         container.translatesAutoresizingMaskIntoConstraints = false
-        addSubview(container)
+        self.addSubview(container)
     }
     
     func setupEmail() {
@@ -44,18 +45,16 @@ class LoginView: UIView {
         password = UITextField()
         password.placeholder = "Password"
         password.borderStyle = .roundedRect
-        password.isHidden = true
+        password.isHidden = false
         password.translatesAutoresizingMaskIntoConstraints = false
         container.addSubview(password)
     }
     
     func setupSignInBtn() {
         signInBtn = UIButton()
-        signInBtn.setTitle("Sign In", for: .normal)
-        signInBtn.setTitleColor(.black, for: .normal)
-        signInBtn.backgroundColor = .white
+        signInBtn.setTitle("Don't have a account? Sign In", for: .normal)
+        signInBtn.setTitleColor(UIColor(red: 184/255, green: 57/255, blue: 14/255, alpha: 1), for: .normal)
         signInBtn.layer.cornerRadius = 5
-        signInBtn.backgroundColor = UIColor(red: 184/255, green: 57/255, blue: 14/255, alpha: 1)
         signInBtn.translatesAutoresizingMaskIntoConstraints = false
         self.addSubview(signInBtn)
     }
@@ -63,10 +62,9 @@ class LoginView: UIView {
     func setupLoginBtn() {
         loginBtn = UIButton()
         loginBtn.setTitle("Login", for: .normal)
-        loginBtn.setTitleColor(.black, for: .normal)
-        loginBtn.backgroundColor = .white
-        loginBtn.layer.cornerRadius = 5
+        loginBtn.setTitleColor(.white, for: .normal)
         loginBtn.backgroundColor = UIColor(red: 59/255, green: 9/255, blue: 24/255, alpha: 1.0)
+        loginBtn.layer.cornerRadius = 5
         loginBtn.translatesAutoresizingMaskIntoConstraints = false
         container.addSubview(loginBtn)
     }
@@ -76,9 +74,8 @@ class LoginView: UIView {
             container.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 50),
             container.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
             container.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20),
-            
            
-            email.topAnchor.constraint(equalTo: container.bottomAnchor, constant: 16),
+            email.topAnchor.constraint(equalTo: container.topAnchor, constant: 16),
             email.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 10),
             email.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -10),
             
@@ -88,7 +85,6 @@ class LoginView: UIView {
             
             signInBtn.topAnchor.constraint(equalTo: container.bottomAnchor, constant: 16),
             signInBtn.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 10),
-            signInBtn.widthAnchor.constraint(equalToConstant: 120),
             signInBtn.heightAnchor.constraint(equalToConstant: 44),
             
             loginBtn.topAnchor.constraint(equalTo: password.bottomAnchor, constant: 32),

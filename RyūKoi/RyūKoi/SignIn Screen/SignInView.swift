@@ -109,9 +109,8 @@ class SignInView: UIView {
             password.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 10),
             password.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -10),
             
-            loginBtn.topAnchor.constraint(equalTo: container.bottomAnchor, constant: 16),
+            loginBtn.topAnchor.constraint(equalTo: container.bottomAnchor, constant: 10),
             loginBtn.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 10),
-            loginBtn.widthAnchor.constraint(equalToConstant: 120),
             loginBtn.heightAnchor.constraint(equalToConstant: 44),
             
             signInBtn.topAnchor.constraint(equalTo: password.bottomAnchor, constant: 32),

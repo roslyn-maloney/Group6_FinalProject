@@ -18,6 +18,8 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
         title = "Sign In"
         navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.hidesBackButton = true
+
         
         signinScreen.signInBtn.addTarget(self, action: #selector(handleSignIn), for: .touchUpInside)
         signinScreen.loginBtn.addTarget(self, action: #selector(handleLogin), for: .touchUpInside)
